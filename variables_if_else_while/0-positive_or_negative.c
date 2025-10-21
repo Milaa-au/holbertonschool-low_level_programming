@@ -1,11 +1,12 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - Entry point
  *
  * Return: 0 (Success)
  */
-Int main(void)
+int main(void)
 {
 	int n;
 
@@ -16,7 +17,7 @@ if (n > 0)
 printf("is positive %d\n", n);
 else if (n == 0)
 printf("is zero %d\n", n);
-else (n < 0)
+else
 printf("is negative%d\n", n);
 
 return (0);
