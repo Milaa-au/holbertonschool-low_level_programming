@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- * main: Entry point of the program
- *
- * Description: program print the size various C
+ * main - Entry point of the program
  *
  * Return: Always 0 (success)
  */
