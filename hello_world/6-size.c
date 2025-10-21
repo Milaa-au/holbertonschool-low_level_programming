@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
+ * main: Entry point of the program
  *
- * Description : program print the size various C
+ * Description: program print the size various C
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
