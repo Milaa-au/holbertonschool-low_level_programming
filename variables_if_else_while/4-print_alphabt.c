@@ -10,8 +10,7 @@ int main(void)
 char lettermin;
 
 lettermin = 'a';
-
-while (lettermin <= 'z'; lettermin++)
+while (lettermin <= 'z')
 if (lettermin != 'e' && lettermin != 'q')
 putchar(lettermin);
 lettermin++;
