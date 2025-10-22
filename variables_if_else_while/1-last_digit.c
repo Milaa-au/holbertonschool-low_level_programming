@@ -1,19 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Return: 0 (Success)
+ *
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-if (n % 10 > 5)
-printf("Last digit of %d is % 10 and is greater than 5\n", n)
-else if (n % 10 == 0)
-printf("Last digit of %d is % 10 and is 0", n)
-else if (6 < n % 10 > 0)
-printf("Last digit of %d is % 10 and is less than 6 and not 0", n)
+	sn = n % 10
+if (sn > 5)
+  printf("Last digit of %d is %d and is greater than 5\n", n, sn)
+else if (sn == 0)
+  printf("Last digit of %d is %d and is 0", n, sn)
+else if (6 < sn > 0)
+  printf("Last digit of %d is %d and is less than 6 and not 0", n, sn)
 	return (0);
 }
