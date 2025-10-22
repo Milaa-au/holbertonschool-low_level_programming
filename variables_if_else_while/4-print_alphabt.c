@@ -9,7 +9,7 @@ int main(void)
 
 char lettermin = 'a';
 
-for(lettermin = 'a'; lettermin <= 'z'; lettermin++)
+for (lettermin = 'a'; lettermin <= 'z'; lettermin++)
 {
 if (lettermin != 'e' && lettermin != 'q')
 putchar(lettermin);
