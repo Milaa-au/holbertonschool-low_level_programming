@@ -7,15 +7,13 @@
 int main(void)
 {
 
-char lettermin;
+char lettermin = 'a';
 
-lettermin = 'a';
-while (lettermin <= 'z')
+for(lettermin = 'a'; lettermin <= 'z'; lettermin++)
+{
 if (lettermin != 'e' && lettermin != 'q')
 putchar(lettermin);
-lettermin++;
-
+}
 putchar('\n');
-
 return (0);
 }
