@@ -12,7 +12,7 @@ char lettermin;
 lettermin = 'a';
 
 while (lettermin <= 'z'; lettermin++)
-if (letter != 'e' && letter != 'q')
+if (lettermin != 'e' && lettermin != 'q')
 putchar(lettermin);
 lettermin++;
 
