@@ -6,8 +6,9 @@
  * Return: 0 (Success)
  */
 
-int print_putchar(void)
+int main(void)
 {
+	print_putchar();
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
