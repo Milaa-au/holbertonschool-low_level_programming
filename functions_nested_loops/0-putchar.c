@@ -6,7 +6,7 @@
  * Return: 0 (Success)
  */
 
-int putchar(void)
+int _putchar(void)
 {
 	char *msg = "_putchar";
 	int i;
