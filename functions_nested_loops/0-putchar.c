@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_putchar - Prints the word "_putchar"
  *
  * Return: 0 (Success)
  */
 
-int _putchar(void)
+int print_putchar(void)
 {
-	char *msg = "_putchar";
-	int i;
-
-	for (i = 0; msg[i] != '\0'; i++)
-	{
-		_putchar(msg[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
