@@ -6,8 +6,15 @@
  * Return: 0 (Success)
  */
 
-void putchar(void)
+int putchar(void)
 {
-	int x
-	printf("_putchar");
+	char *msg = "_putchar";
+	int i;
+
+	for (i = 0; msg[i] != '\0'; i++)
+	{
+		_putchar(msg[i]);
+	}
+	_putchar('\n');
 	return (0);
+}
