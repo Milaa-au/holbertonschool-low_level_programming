@@ -3,6 +3,7 @@
 
 int _putchar(char c);/** je dÃclare la fonction _putchar*/
 int main(void);
+int add(int a, int b);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
