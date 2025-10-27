@@ -11,8 +11,8 @@ void more_numbers(void)
 {
 	int x = 0;
 	char n;
-	int d;
-	int i;
+	char d;
+	char i;
 
 	for (x = 0; x <= 9; x++)
 	{
@@ -22,8 +22,8 @@ void more_numbers(void)
 			{
 				d = n / 10;
 				i = n % 10;
-				_putchar(d + '0')
-				_putchar(i + '0')
+				_putchar(d + '0');
+				_putchar(i + '0');
 			}
 			else
 			{
