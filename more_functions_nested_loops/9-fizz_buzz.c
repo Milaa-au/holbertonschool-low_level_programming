@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * FizzBuzz - Verifie multiple 3-5 ou les deux
+ * main - Verifie multiple 3-5 ou les deux
  *
  * Return: 0 (Success)
  *
@@ -14,11 +14,11 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if ((a % 3 == 0) && (a % 10 == 5 && a % 10 == 0))
+		if (a % 3 == 0 && a % 5 == 5)
 		{
 			printf("Buzz ");
 		}
-		else if (a % 10 == 5 || a % 10 == 0)
+		else if (a % 5 == 0)
 		{
 			printf("Fizz ");
 		}
