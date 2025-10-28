@@ -8,7 +8,7 @@
  *
  */
 
-int FizzBuzz(void)
+int main(void)
 {
 	int a;
 
