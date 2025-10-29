@@ -2,7 +2,6 @@
 
 
 /**
- *
  * reset_to_98 - Fonction qui permet de pointer 98
  * @n: pointer
  *
