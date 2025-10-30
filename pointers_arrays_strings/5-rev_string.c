@@ -14,14 +14,11 @@ void rev_string(char *s)
 	int i;
 	int j = 0;
 
-	if (j == n)
+	while (j == n && s[n] != '\0')
 	{
-		while (s[n] != '\0')
-		{
-			_putchar(s[n]);
-			n++;
-			j++;
-		}
+		_putchar(s[n]);
+		n++;
+		j++;
 	}
 	_putchar('\n');
 	for (i = n - 1; i >= 0; i--)
