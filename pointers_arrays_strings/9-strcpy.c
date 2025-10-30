@@ -1,5 +1,4 @@
 #include "main.h"
-#include <main.h>
 
 /**
  * *_strcpy - Fonction qui copie la chaine de char pointer
