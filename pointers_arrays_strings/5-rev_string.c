@@ -12,11 +12,16 @@ void rev_string(char *s)
 {
 	int n = 0;
 	int i;
+	int j = 0;
 
-	if (s[n] != '\0')
+	if (j == n)
 	{
-		_putchar(s[n]);
-		n++;
+		while (s[n] != '\0')
+		{
+			_putchar(s[n]);
+			n++;
+			j++;
+		}
 	}
 	_putchar('\n');
 	for (i = n - 1; i >= 0; i--)
