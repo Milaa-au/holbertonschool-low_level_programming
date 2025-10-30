@@ -18,8 +18,6 @@ void rev_string(char *s)
 		_putchar(s[n]);
 		n++;
 	}
-	_putchar('\n');
-
 	for (i = n - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
