@@ -5,7 +5,7 @@
  * @dest: destination
  * @src: pointer
  *
- * Ruturn: 0 (Success)
+ * Return: dest (result)
  */
 
 char *_strcpy(char *dest, char *src)
