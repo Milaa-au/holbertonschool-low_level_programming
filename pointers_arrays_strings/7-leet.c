@@ -22,7 +22,7 @@ char *leet(char *str)
 			if (str[x] == l[i])
 			{
 				str[x] = n[i];
-			break;
+				break;
 			}
 		}
 	}
