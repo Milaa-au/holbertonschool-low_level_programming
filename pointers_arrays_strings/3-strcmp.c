@@ -5,7 +5,7 @@
 * _strcmp - Compare deux chaine de chars
 * @s1: 1er chaine de chars
 * @s2: 2e chaine de char
-* Return: fin 
+* Return: fin
 */
 
 int _strcmp(char *s1, char *s2)
