@@ -11,6 +11,7 @@
 char *cap_string(char *str)
 {
 	int a = 0;
+	int i;
 	char separators[] = {' ', '\t', '\n', '.', ',', ';', '!',
 	'?', '"', '(', ')', '{', '}'};
 
