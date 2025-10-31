@@ -20,4 +20,5 @@ char *cap_string(char *str)
 		}
 		a++;
 	}
+	return (str);
 }
