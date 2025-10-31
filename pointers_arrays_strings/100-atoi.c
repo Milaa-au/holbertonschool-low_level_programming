@@ -25,5 +25,5 @@ int _atoi(char *s)
 		}
 	}
 
-	return (result + negatif);
+	return (result * negatif);
 }
