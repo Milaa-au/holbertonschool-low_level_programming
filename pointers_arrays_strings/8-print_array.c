@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Fonction qui  affiche les n premiers elements string
@@ -14,10 +15,10 @@ void print_array(int *a, int n)
 
 	for (e = 0; a[e] != '\0'; e++)
 	{
-		print("%d", a[i]);
+		printf("%d", a[e]);
 		if (e != n - 1)
 		{
-			_putchar(", ");
+			printf(", ");
 		}
 	}
 	printf("\n");
