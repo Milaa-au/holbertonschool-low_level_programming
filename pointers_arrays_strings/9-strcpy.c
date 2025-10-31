@@ -8,7 +8,7 @@
  * Ruturn: 0 (Success)
  */
 
-void *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int n;
 	int x;
