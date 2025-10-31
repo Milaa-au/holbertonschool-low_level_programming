@@ -3,22 +3,22 @@
 
 /**
  * string_toupper - Transforme une chaine de char de min en maj
- * @*: tab char
+ * @str: tab char
  *
  * Return: char (SUCCESS)
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int a;
 
-	while (*a != '\n')
+	while (str[a] != '\n')
 	{
-		if (*a >= 'a' && *a <= 'z')
+		if (str[a] >= 'a' && str[a] <= 'z')
 		{
-			*a = *a - 32;
+			str[a] = str[a] - 32;
 		}
 		a++;
 	}
-	return (*a);
+	return (str[a]);
 }
