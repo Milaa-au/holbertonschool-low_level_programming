@@ -1,5 +1,6 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * cap_string - Transforme la premier lettre en maj
