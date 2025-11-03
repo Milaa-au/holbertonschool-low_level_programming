@@ -3,7 +3,7 @@
 
 /**
  * *_memset - Fonction qui remplit la memoire avec un octe
- * @s: Tableau 
+ * @s: Tableau
  * @b: Ce qu'on veut ajouter dans le tableau
  * @n: Combien de fois on veut l'ajouter dans le tableau
  *
