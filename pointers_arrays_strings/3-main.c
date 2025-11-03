@@ -9,7 +9,7 @@
 int main(void)
 {
     char *s = "Coucou le loup";
-    char *f = "d'accord je sais po";
+    char *f = "Coucou le loup";
     unsigned int n;
 
     n = _strspn(s, f);

@@ -27,14 +27,11 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			j++;
 		}
-		if (valid == 0)
+		if (!valid)
 		{
 			break;
 		}
-		else
-		{
-			e = e + 1;
-		}
+		e++;
 		i++;
 	}
 	return (e);
