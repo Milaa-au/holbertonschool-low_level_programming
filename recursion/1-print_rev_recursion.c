@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
+ * _print_rev_recursion - Fonction qui affiche a l'envers
+ * @s: chaine de char
  *
- *
- *
+ * Return: rien (void)
  */
 
 void _print_rev_recursion(char *s)
