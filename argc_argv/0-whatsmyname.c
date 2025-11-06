@@ -2,8 +2,8 @@
 
 /**
  * main - programme qui affiche le nom
- * @agrc: 1 er
- * @agrv: renvoie le nom
+ * @argc: 1 er
+ * @argv: renvoie le nom
  * Return: 0 (Success)
  */
 
