@@ -7,4 +7,16 @@
  * @str: pointer
  *
  * Return: Null if str = NULL
- *
+ */
+
+char *_strdup (char *str)
+{
+	int i;
+
+	if (str == 0)
+	{
+		return (0);
+	}
+	for (i = 0; i < sizeof(*str); i++)
+	{
+
