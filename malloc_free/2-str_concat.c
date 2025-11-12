@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * *_strdup - Fonction qui concate 2 chaines de char.
@@ -23,9 +22,16 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
+	
+	while (*s1 != '\0')
+	{
+		a++;
+	}
 
-	a = strlen(s1);
-	b = strlen(s2);
+	while (*s2 != '\0')
+	{
+		b++;
+	}
 	size = a + b + 1;
 
 	result = malloc(size);
