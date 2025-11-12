@@ -9,7 +9,7 @@
  * Return: Null if str = NULL
  */
 
-char *_strdup (char *str)
+char *_strdup(char *str)
 {
 	char *d;
 	int i, len = 0;
