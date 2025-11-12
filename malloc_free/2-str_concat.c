@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * *_strdup - Fonction qui concate 2 chaines de char.
+ * *str_concat - Fonction qui concate 2 chaines de char.
  * @s1: premier v
  * @s2: deuxieme v
  *
@@ -14,6 +14,9 @@ char *str_concat(char *s1, char *s2)
 {
 	int size, a, j, b, i;
 	char *result;
+
+	a = 0;
+	b = 0;
 	if (s1 == 0)
 	{
 		s1 = "";
@@ -23,12 +26,12 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	while (*s1 != '\0')
+	while (s1[a] != '\0')
 	{
 		a++;
 	}
 
-	while (*s2 != '\0')
+	while (s2[b] != '\0')
 	{
 		b++;
 	}
