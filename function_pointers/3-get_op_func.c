@@ -1,4 +1,4 @@
-#include <stddlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
 
@@ -11,42 +11,23 @@
 
 int (*get_op_func(char *s))(int, int)
 {
-	int num1 = 0, num2 = 0;
+	op_t ops[] = {
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
+		{NULL, NULL}
+	};
+	int i;
 
-	if (argv != 4)
+	while (ops[i].op != NULL)
 	{
-		printf("Error\n");
-		exit(98);
-	}
-	if (strchr(argv[2], '+') == 0)
-	{
-		result = op_add(num1, num2);
-	}
-	else if (strcmp(argv[2], "-") == 0)
-	{
-		result = op_sub(num1, num2);
-	}
-	else if (strcmp(argv[2], "*") == 0)
-	{
-		result = op_mul(num1, num2);
-	}
-	else if (strcmp(argv[2], "/") == 0)
-	{
-		if (num2 == 0)
+		if (s[0] == ops[i].op[0] && s[1] == '\0')
 		{
-			printf("Error\n");
-			exit(100);
+			return (ops[i].f);
 		}
-		result = op_div(num1, num2);
+		i++;
 	}
-	else if (strcmp(argv[2], "%" == 0))
-	{
-		if (num2 == 0)
-		{
-			printf("Error\n");
-			exit(100);
-		}
-	}
-	printf("%d\n", result);
-	return (0);
+	return (NULL);
 }
