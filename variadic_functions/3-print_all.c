@@ -39,6 +39,8 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	unsigned int i, j;
+	char *sep = "";
+
 	form_t forms[] = {
 		{'c', print_char},
 		{'i', print_int},
@@ -56,12 +58,12 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == forms[j].type)
 			{
+				printf("%s", sep);
 				forms[j].func(args);
-				printf(", ");
+				sep = ", "; 
 				break;
 			}
 			j++;
-
 		}
 		i++;
 	}
