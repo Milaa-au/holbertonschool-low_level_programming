@@ -53,7 +53,7 @@ int op_div(int a, int b)
 }
 
 /**
-* op_div - Modulo
+* op_mod - Modulo
 * @a: Entier a modulo
 * @b: Entier a modulo
 *
