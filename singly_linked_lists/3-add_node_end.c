@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
-* add_node - Fonction qui ajoute le noeud au dessus (et l'affiche).
+* add_node_end - Ajout d'un script qui ajoute les nouveaux noeuds à la fin
 * @head: h
 * @str: d
 *
