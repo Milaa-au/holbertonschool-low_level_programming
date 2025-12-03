@@ -6,7 +6,7 @@
 
 /**
 * add_node - Fonction qui ajoute le noeud au dessus (et l'affiche).
-* @head: h
+* @head: Pointeur vers le premier élément de la liste
 * @str: d
 *
 * Return: new
