@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_list - Affiche tous les éléments d'une liste chaînée
+ * print_dlistint - Affiche tous les éléments d'une liste chaînée
  * @h: Pointeur vers le premier élément de la liste
  *
  * Return: Le nombre de nœuds de la liste dlistint_t
