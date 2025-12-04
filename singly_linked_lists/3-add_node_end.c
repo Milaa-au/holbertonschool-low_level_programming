@@ -5,12 +5,18 @@
 #include <stdlib.h>
 
 /**
-* add_node_end - Ajout d'un script qui ajoute les nouveaux noeuds à la fin
-* @head: h
-* @str: d
-*
-* Return: new
-*/
+ * add_node_end - Ajoute un nouveau nœud à la fin d'une liste chaînée
+ * @head: Pointeur vers le pointeur du premier nœud de la liste
+ * @str: Chaîne de caractères à stocker dans le nouveau nœud
+ *
+ * Description: Alloue un nouvel espace mémoire pour le nœud et
+ * pour la chaîne str, calcule la longueur de str, puis l'ajoute
+ * à la fin de la liste. Si la liste est vide, le nouveau nœud
+ * devient le premier.
+ *
+ * Return: Adresse du nouveau nœud ajouté, ou NULL en cas d'échec
+ */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;

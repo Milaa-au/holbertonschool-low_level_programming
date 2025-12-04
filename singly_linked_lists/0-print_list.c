@@ -2,10 +2,13 @@
 #include "lists.h"
 
 /**
- * print_list - Affiche tous les éléments d'une liste chaînée list_t
- * @h: Pointeur vers le premier élément de la liste
+ * list_len - Compte le nombre de nœuds dans une liste chaînée
+ * @h: Pointeur vers le premier nœud de la liste
  *
- * Return: Le nombre de nœuds de la liste list_t
+ * Description: Parcourt la liste et compte le nombre de nœuds.
+ * Si un nœud contient un champ str NULL, la fonction renvoie 0.
+ *
+ * Return: Nombre de nœuds dans la liste
  */
 
 size_t print_list(const list_t *h)

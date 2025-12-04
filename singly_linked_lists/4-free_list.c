@@ -5,11 +5,12 @@
 #include <stdlib.h>
 
 /**
-* free_list - Fonction qui libère la liste
-* @head: Pointeur vers le premier élément de la liste
-*
-* Return: rien (void)
-*/
+ * free_list - Libère tous les éléments d'une liste chaînée
+ * @head: Pointeur vers le premier nœud de la liste
+ *
+ * Description: Parcourt la liste et libère la mémoire
+ * allouée pour chaque nœud ainsi que pour le champ str.
+ */
 
 void free_list(list_t *head)
 {
