@@ -6,7 +6,8 @@
  * @h: Pointeur vers le premier nœud de la liste
  *
  * Description: Parcourt la liste et affiche le contenu de chaque nœud.
- * Pour chaque nœud, affiche la longueur de la chaîne et la chaîne elle-même.
+ * Pour chaque nœud, affiche la longueur de la
+ * chaîne et la chaîne elle-même.
  * Si le champ str est NULL, affiche "[0] (nil)".
  *
  * Return: Nombre de nœuds dans la liste
