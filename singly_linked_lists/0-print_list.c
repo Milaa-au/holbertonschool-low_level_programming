@@ -2,11 +2,12 @@
 #include "lists.h"
 
 /**
- * list_len - Compte le nombre de nœuds dans une liste chaînée
+ * print_list - Affiche tous les éléments d'une liste chaînée
  * @h: Pointeur vers le premier nœud de la liste
  *
- * Description: Parcourt la liste et compte le nombre de nœuds.
- * Si un nœud contient un champ str NULL, la fonction renvoie 0.
+ * Description: Parcourt la liste et affiche le contenu de chaque nœud.
+ * Pour chaque nœud, affiche la longueur de la chaîne et la chaîne elle-même.
+ * Si le champ str est NULL, affiche "[0] (nil)".
  *
  * Return: Nombre de nœuds dans la liste
  */
