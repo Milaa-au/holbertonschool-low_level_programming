@@ -2,15 +2,13 @@
 #include "lists.h"
 
 /**
- * add_node - Ajoute un nouveau nœud au début d'une liste chaînée
- * @head: Pointeur vers le pointeur du premier nœud de la liste
- * @str: Chaîne de caractères à stocker dans le nouveau nœud
+ * list_len - Compte le nombre de nœuds dans une liste chaînée
+ * @h: Pointeur vers le premier nœud de la liste
  *
- * Description: Alloue un nouvel espace mémoire pour le nœud et
- * pour la chaîne str, calcule la longueur de str, puis l'ajoute
- * au début de la liste. Le nouveau nœud devient le nouveau head.
+ * Description: Parcourt la liste et compte le nombre de nœuds.
+ * Si un nœud contient un champ str NULL, la fonction renvoie 0.
  *
- * Return: Adresse du nouveau nœud ajouté, ou NULL en cas d'échec
+ * Return: Nombre de nœuds dans la liste
  */
 
 size_t list_len(const list_t *h)
@@ -21,7 +19,7 @@ size_t list_len(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			return(0);
+			return (0);
 		}
 		count++;
 		h = h->next;
