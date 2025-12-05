@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * append_text_to_file - Lit un fichier texte et l’affiche sur la sortie standard.
+ * append_text_to_file - Lit un fichier texte et 
+ * l’affiche sur la sortie standard.
  * @filename: Pointeur vers le nom du fichier à lire.
  * @text_content: Nombre de lettres à lire et à afficher.
  *
