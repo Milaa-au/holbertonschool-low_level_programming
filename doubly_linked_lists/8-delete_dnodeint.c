@@ -5,7 +5,8 @@
 #include <stdlib.h>
 
 /**
- * insert_dnodeint_at_index - Supprime un nœud d’une liste doublement chaînée
+ * insert_dnodeint_at_index - Supprime un nœud d’une 
+ * liste doublement chaînée
  * @head: Pointeur vers le pointeur de tête de la liste
  * @idex: Position du nœud à supprimer (commence à 0)
  *
