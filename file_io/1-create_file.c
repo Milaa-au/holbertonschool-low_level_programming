@@ -9,7 +9,8 @@
  * Return: 1 en cas de succès, -1 en cas d’échec
  *
  * Description:
- * Cette fonction crée un fichier avec les permissions rw------- (0600).
+ * Cette fonction crée un fichier avec
+ * les permissions rw------- (0600).
  * Si le fichier existe déjà, il est tronqué.
  * Si text_content n'est pas NULL,
  * son contenu est écrit dans le fichier. En cas d'erreur (fichier impossible
