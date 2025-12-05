@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-char *create_buffer(void);
-void close_file(int fd);
-
-
 /**
  * create_buffer - Alloue un tampon de 1024 octets.
  * @file: Nom du fichier associé au tampon
