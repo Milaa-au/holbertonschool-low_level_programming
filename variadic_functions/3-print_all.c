@@ -2,6 +2,20 @@
 #include <stdarg.h>
 
 /**
+ * struct form - Structure associant un type de format à une fonction d'affichage
+ *
+ * @type: Caractère représentant le type (c, i, f, s)
+ * @func: Pointeur vers la fonction correspondant à ce type
+ *
+ */
+
+typedef struct form
+{
+	char type;
+	print_func func;
+} form_t;
+
+/**
  * print_func - Typedef for function pointers to printing functions
  *
  * @args: The va_list passed to each printing function
