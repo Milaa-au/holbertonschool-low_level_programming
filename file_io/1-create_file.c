@@ -10,7 +10,8 @@
  *
  * Description:
  * Cette fonction crée un fichier avec les permissions rw------- (0600).
- * Si le fichier existe déjà, il est tronqué. Si text_content n'est pas NULL,
+ * Si le fichier existe déjà, il est tronqué.
+ * Si text_content n'est pas NULL,
  * son contenu est écrit dans le fichier. En cas d'erreur (fichier impossible
  * à créer, ou écriture échouée), la fonction retourne -1.
  */
@@ -19,8 +20,9 @@ int create_file(const char *filename, char *text_content)
 	int o, w, len = 0;
 
 	if (filename == NULL)
+	{
 		return (-1);
-
+	}
 	if (text_content != NULL)
 	{
 		for (len = 0; text_content[len];)
