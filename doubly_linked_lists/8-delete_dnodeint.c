@@ -5,10 +5,10 @@
 #include <stdlib.h>
 
 /**
- * insert_dnodeint_at_index - Supprime un nœud d’une
+ * delete_dnodeint_at_index - Supprime un nœud d’une
  * liste doublement chaînée
  * @head: Pointeur vers le pointeur de tête de la liste
- * @idex: Position du nœud à supprimer (commence à 0)
+ * @index: Position du nœud à supprimer (commence à 0)
  *
  * Return: 1 en cas de succès, -1 en cas d’échec
  */
