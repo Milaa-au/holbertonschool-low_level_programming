@@ -49,11 +49,6 @@ void print_all(const char * const format, ...)
 		{'s', print_string},
 	};
 
-    if (format == NULL)
-    {
-        printf("\n");
-        return;
-    }
 	va_start(args, format);
 
 	i = 0;
