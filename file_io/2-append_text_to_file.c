@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - Lit un fichier texte et l’affiche sur la sortie standard.
+ * append_text_to_file - Lit un fichier texte et l’affiche sur la sortie standard.
  * @filename: Pointeur vers le nom du fichier à lire.
- * @letters: Nombre de lettres à lire et à afficher.
+ * @text_content: Nombre de lettres à lire et à afficher.
  *
  * Description:
  * Cette fonction ouvre un fichier en lecture seule, alloue un buffer pour
